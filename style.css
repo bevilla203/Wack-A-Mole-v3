@@ -1,0 +1,78 @@
+/* imports useful font. note: put font where you need it! */
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+body{
+    font-family: 'Press Start 2P', sans-serif;
+    background-color: black;
+    color: white;
+}
+#grass{
+    background-color: green;
+    height: 38rem;
+    display: flex;
+    justify-content: center;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.buttons{
+    height: 10rem;
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+    flex-direction: column;
+}
+#playground{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    /* makes holes for a perfect grid */
+    width: 640px;
+    height: 30rem;
+}
+.hidden{
+    display: none;
+}
+
+.difficulty{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.mainTitle{
+    padding-top: 10px;
+}
+img {
+    background-image: none;
+}
+
+/* the bottom two classes make the background disappear in the picture. how?? */
+.hole{
+    width: 130px;
+    background-color: green;
+    border: none;
+}
+.moleHole{
+    width: 150px;
+    height: 170px;
+    background-color: green;
+    border: none;
+}
+.btnDifficulty{
+    margin-top: 10px;
+}
+.difficultyRow{
+    position: relative;
+    right: 20px;
+}
+.startStop{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 5px;
+}
